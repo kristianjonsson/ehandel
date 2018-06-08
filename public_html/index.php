@@ -17,7 +17,7 @@
 			<div>
 				<ul>
 					<li>
-						<a href="">Forside</a>
+						<a href="index.php">Forside</a>
 					</li>
 					<li>
 						<a href="">Shop</a>
@@ -39,7 +39,7 @@
 							<a href="">Register</a>
 						</li>
                         <li>
-                            <a href=""><i class="fas fa-shopping-cart carti"></i></a>
+                            <a href="cart.php"><i class="fas fa-shopping-cart carti"></i></a>
                         </li>
 					</ul>
 
