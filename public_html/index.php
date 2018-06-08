@@ -11,6 +11,7 @@ include 'init.php';
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<title>e handel</title>
 </head>
 
@@ -21,7 +22,7 @@ include 'init.php';
 			<div>
 				<ul>
 					<li>
-						<a href="">Forside</a>
+						<a href="index.php">Forside</a>
 					</li>
 					<li>
 						<a href="">Shop</a>
@@ -42,12 +43,11 @@ include 'init.php';
 						<li>
 							<a href="">Register</a>
 						</li>
-
+                        <li>
+                            <a href="cart.php"><i class="fas fa-shopping-cart carti"></i></a>
+                        </li>
 					</ul>
-					<form class="search" action="">
-						<input type="search" placeholder="Søg...">
-						<button type="submit">Søg</button>
-					</form>
+
 				</div>
 			</div>
 		</nav>
@@ -112,6 +112,7 @@ include 'init.php';
 							</div>
 						</div>
 					</div>
+
 					<div class="options">
 						<button class="btn btn-primary pull-right">Læg i kurv</button>
 					</div>
